@@ -1,8 +1,16 @@
 import React from "react";
+import Users from "./Users"
 
-function UsersList() {
+function UsersList({ users }) {
+
+  const usersComponents = users.map(user => {
+    return <Users key={user.id} user={user} />
+  })
+
   return (
-    null
+    <main className="cards">
+      {usersComponents}
+    </main>
   )
 }
 

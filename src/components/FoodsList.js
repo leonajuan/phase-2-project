@@ -1,8 +1,16 @@
 import React from "react";
+import Foods from "./components/Foods"
 
-function FoodsList() {
+function FoodsList({ users }) {
+
+  const foodComponents = users.map(user => {
+    return <Foods />
+  })
+
   return (
-    null
+    <li>
+      {foodComponents}
+    </li>
   )
 }
 

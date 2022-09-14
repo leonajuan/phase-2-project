@@ -1,19 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
-function Users() {
-
-  const [users, setUsers] = useState([])
-
-  useEffect(() => {
-    fetch("http://localhost:3001/users")
-      .then(res => res.json())
-      .then(usersData => {
-        console.log(usersData)
-      })
-  }, [])
+function Users({ user }) {
+  const { name, age, image, favoriteFood, favoriteRestaurant, bio } = user
+  const [like, setLike] = useState(true)
 
   return (
-    null
+    <li className="card">
+      <img src={image} alt={name} />
+      <h2>{name}</h2>
+      <h4>{age}</h4>
+      <h3>{bio}</h3>
+      <h4>Favorite Food: {favoriteFood}</h4>
+      <h4>Favorite Restaurant in NYC: {favoriteRestaurant}</h4>
+      {like ? (
+        <button onClick={() => setLike(false)} className="button">🍑</button>
+      ) : (
+        <button onClick={() => setLike(true)} className="button">🤮</button>
+      )}
+    </li>
   )
 }
 

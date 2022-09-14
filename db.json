@@ -1,12 +1,12 @@
 {
-  "users":[
+  "users": [
     {
       "id": 1,
       "name": "Jordan",
       "age": 25,
       "image": "https://images.pexels.com/photos/3799790/pexels-photo-3799790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "favoriteFood": "Black Pepper Tuna Sushi",
-      "favoriteRestaurant": "Veselka",
+      "favoriteRestaurant": "Chipotle",
       "bio": "In town for the week, need someone to show me around"
     },
     {
@@ -19,76 +19,76 @@
       "bio": "✨🪩🧚 Here for a good time, not a long time 🧚🪩✨"
     },
     {
-    "id": 3,
-    "name": "Emily",
-    "age": 27,
-    "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "favoriteFood": "Dark Chocolate",
-    "favoriteRestaurant": "Malibu Farm",
-    "bio": "Better than your ex 🦋"
-  },
-  {
-    "id": 4,
-    "name": "Evelyn",
-    "age": 21,
-    "image": "https://images.pexels.com/photos/763546/pexels-photo-763546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "favoriteFood": "Shrimp Tacos",
-    "favoriteRestaurant": "Thai Diner",
-    "bio": "Only here for validation."
-  },
-  {
-    "id": 5,
-    "name": "Matt",
-    "age": 30,
-    "image": "https://images.pexels.com/photos/450214/pexels-photo-450214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "favoriteFood": "Beef Pho",
-    "favoriteRestaurant": "Artichoke Basille's Pizza",
-    "bio": "Short king 👑"
-  },
-  {
-    "id": 6,
-    "name": "Collin",
-    "age": 23,
-    "image": "https://images.pexels.com/photos/428333/pexels-photo-428333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "favoriteFood": "Pepperoni Pizza",
-    "favoriteRestaurant": "Birria-Landia",
-    "bio": "🍆 Mediocre at everything 🍆"
-  },
-  {
-    "id": 7,
-    "name": "Alexandria",
-    "age": 29,
-    "image": "https://images.unsplash.com/photo-1524159730786-4e74a1b78d7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
-    "favoriteFood": "Penne Vodka",
-    "favoriteRestaurant": "Via Carota",
-    "bio": "Looking for a tall man with zero personality 💅"
-  },
-  {
-    "id": 8,
-    "name": "Ricardo",
-    "age": 28,
-    "image": "https://images.pexels.com/photos/819530/pexels-photo-819530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "favoriteFood": "Chicken Tikka Masala",
-    "favoriteRestaurant": "Xi'an Famous Foods",
-    "bio": "5'9 but 6'2 with shoes on 🫡"
-  },
-  {
-    "id": 9,
-    "name": "Gretchen",
-    "age": 20,
-    "image": "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1790&q=80",
-    "favoriteFood": "Strawberry Shortcake",
-    "favoriteRestaurant": "Westville",
-    "bio": "Hit me up on Venmo: @gretchenwenie"
-  },
-  {
-    "id": 10,
-    "name": "Paulo",
-    "age": 26,
-    "image": "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "favoriteFood": "Bacon Cheeseburger",
-    "favoriteRestaurant": "Boqueria",
-    "bio": "Retired frat bro 🤙🐟🍺"
-  }
+      "id": 3,
+      "name": "Emily",
+      "age": 27,
+      "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "favoriteFood": "Dark Chocolate",
+      "favoriteRestaurant": "Malibu Farm",
+      "bio": "Better than your ex 🦋"
+    },
+    {
+      "id": 4,
+      "name": "Evelyn",
+      "age": 21,
+      "image": "https://images.pexels.com/photos/763546/pexels-photo-763546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "favoriteFood": "Shrimp Tacos",
+      "favoriteRestaurant": "Thai Diner",
+      "bio": "Only here for validation."
+    },
+    {
+      "id": 5,
+      "name": "Matt",
+      "age": 30,
+      "image": "https://images.pexels.com/photos/450214/pexels-photo-450214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "favoriteFood": "Beef Pho",
+      "favoriteRestaurant": "Artichoke Basille's Pizza",
+      "bio": "Short king 👑"
+    },
+    {
+      "id": 6,
+      "name": "Collin",
+      "age": 23,
+      "image": "https://images.pexels.com/photos/428333/pexels-photo-428333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "favoriteFood": "Pepperoni Pizza",
+      "favoriteRestaurant": "Birria-Landia",
+      "bio": "🍆 Mediocre at everything 🍆"
+    },
+    {
+      "id": 7,
+      "name": "Alexandria",
+      "age": 29,
+      "image": "https://images.unsplash.com/photo-1524159730786-4e74a1b78d7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      "favoriteFood": "Penne Vodka",
+      "favoriteRestaurant": "Via Carota",
+      "bio": "Looking for a tall man with zero personality 💅"
+    },
+    {
+      "id": 8,
+      "name": "Ricardo",
+      "age": 28,
+      "image": "https://images.pexels.com/photos/819530/pexels-photo-819530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "favoriteFood": "Chicken Tikka Masala",
+      "favoriteRestaurant": "Xi'an Famous Foods",
+      "bio": "5'9 but 6'2 with shoes on 🫡"
+    },
+    {
+      "id": 9,
+      "name": "Gretchen",
+      "age": 20,
+      "image": "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1790&q=80",
+      "favoriteFood": "Strawberry Shortcake",
+      "favoriteRestaurant": "Westville",
+      "bio": "Hit me up on Venmo: @gretchenwenie"
+    },
+    {
+      "id": 10,
+      "name": "Paulo",
+      "age": 26,
+      "image": "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "favoriteFood": "Bacon Cheeseburger",
+      "favoriteRestaurant": "Boqueria",
+      "bio": "Retired frat bro 🤙🐟🍺"
+    }
   ]
 }

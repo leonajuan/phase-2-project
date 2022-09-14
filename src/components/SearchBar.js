@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 
-function SearchBar() {
+function SearchBar({ filterUsers }) {
+
+  const [searchText, setSearchText] = useState("")
+
+  function handleChange(e) {
+    setSearchText(e.target.value)
+    filterUsers(e.target.value)
+  }
+
   return (
-    null
+    <div className="searchbar">
+      <label htmlFor="search">Search Users:</label>
+      <input
+        type="text"
+        id="search"
+        placeholder="Type a name to search..."
+        value={searchText}
+        onChange={handleChange}
+      />
+    </div>
   )
 }
 
