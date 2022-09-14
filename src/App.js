@@ -7,7 +7,7 @@ import {
 import Header from "./components/Header"
 import UsersList from "./components/UsersList"
 import FoodsList from "./components/FoodsList"
-// import RestaurantsList from "./components/RestaurantsList"
+import RestaurantsList from "./components/RestaurantsList"
 import { useState, useEffect } from "react";
 import "./App.css"
 import NewUsersForm from "./components/NewUsersForm";
@@ -30,7 +30,7 @@ export default function App() {
 
   function handleAddUser(newUser) {
     const updatedUsersArray = [...users, newUser]
-    setUsers(updatedUsersArray)
+    setFilteredUsers(updatedUsersArray)
   }
 
   function filterUsers(searchText) {
@@ -71,7 +71,7 @@ export default function App() {
               <FoodsList users={users} />
             </Route>
             <Route path="/restaurants">
-              <h1>Favorite Restaurants Will Appear Here</h1>
+              <RestaurantsList users={users} />
             </Route>
             <Route path="/">
               <UsersList users={filteredUsers} />

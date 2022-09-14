@@ -11,7 +11,6 @@ function NewUsersForm({ users, handleAddUser }) {
 
   function handleSubmit(e) {
     e.preventDefault()
-    console.log(food)
     fetch("http://localhost:3001/users", {
       method: "POST",
       headers: {

@@ -1,8 +1,18 @@
 import React from "react";
 
-function RestaurantsList() {
+function RestaurantsList({ users }) {
+  const restaurantComponents = users.map(user => {
+    return (
+      <p>
+        {user.favoriteRestaurant}
+      </p>
+    )
+  })
+
   return (
-    null
+    <main className="router-components">
+      {restaurantComponents}
+    </main>
   )
 }
 
