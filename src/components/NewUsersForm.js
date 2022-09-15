@@ -1,3 +1,4 @@
+import { render } from "@testing-library/react"
 import React, { useState, useRef } from "react"
 
 function NewUsersForm({ users, handleAddUser }) {
@@ -37,6 +38,9 @@ function NewUsersForm({ users, handleAddUser }) {
       if (reader.readyState === 2) {
         uploadUser(reader.result)
       }
+    }
+    reader.error = (e) => {
+      alert(e);
     }
     reader.readAsDataURL(imageRef.current.files[0])
 

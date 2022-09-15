@@ -1,10 +1,10 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Header from "./components/Header"
+import NavBar from "./components/NavBar"
 import UsersList from "./components/UsersList"
 import FoodsList from "./components/FoodsList"
 import RestaurantsList from "./components/RestaurantsList"
@@ -48,24 +48,10 @@ export default function App() {
 
   return (
     <>
-      <Header />
-
       <Router>
+        <Header />
+        <NavBar />
         <div>
-          <nav className="navbar">
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/food">Food</Link>
-              </li>
-              <li>
-                <Link to="/restaurants">Restaurants</Link>
-              </li>
-            </ul>
-          </nav>
-
           <SearchBar filterUsers={filterUsers} />
 
           <Switch>
