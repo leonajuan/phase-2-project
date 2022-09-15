@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <h1>
-        PHASE 2 PROJECT: TITLE TBD
+        PHASE 2 PROJECT: SNACKCHAT
       </h1>
     </header>
   )

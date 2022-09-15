@@ -49,10 +49,10 @@ export default function App() {
   return (
     <>
       <Header />
-      <SearchBar filterUsers={filterUsers} />
+
       <Router>
         <div>
-          <nav>
+          <nav className="navbar">
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -65,6 +65,8 @@ export default function App() {
               </li>
             </ul>
           </nav>
+
+          <SearchBar filterUsers={filterUsers} />
 
           <Switch>
             <Route path="/food">
@@ -79,6 +81,7 @@ export default function App() {
           </Switch>
         </div>
       </Router>
+
       <NewUsersForm users={users} handleAddUser={handleAddUser} />
     </>
   );

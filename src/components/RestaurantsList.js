@@ -3,7 +3,7 @@ import React from "react";
 function RestaurantsList({ users }) {
   const restaurantComponents = users.map(user => {
     return (
-      <p>
+      <p key={user.id}>
         {user.favoriteRestaurant}
       </p>
     )

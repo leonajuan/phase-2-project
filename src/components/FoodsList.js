@@ -4,7 +4,7 @@ function FoodsList({ users }) {
 
   const foodComponents = users.map(user => {
     return (
-      <p>
+      <p key={user.id}>
         {user.favoriteFood}
       </p>
     )
