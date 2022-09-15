@@ -15,7 +15,7 @@ function SearchBar({ filterUsers }) {
       <input
         type="text"
         id="search"
-        placeholder="Type a name to search..."
+        placeholder="Type to search..."
         value={searchText}
         onChange={handleChange}
       />

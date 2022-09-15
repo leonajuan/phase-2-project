@@ -84,6 +84,10 @@
   flex-direction: column;
 }
 
+.searchbar label {
+  font-size: 20px;
+}
+
 .button {
   border: none;
   background: none;
@@ -101,6 +105,7 @@
 .navbar {
   border: dashed 4px rgba(182, 114, 104, 0.708);
   padding: 5px;
+  margin: 1rem;
 }
 
 .nav-list-item {
@@ -133,8 +138,17 @@
   padding: 0;
   background-color: rgba(182, 114, 104, 0.708);
   color: white;
+  letter-spacing: 7px;
 }
 
 .submit {
   cursor: pointer;
+}
+
+.name {
+  letter-spacing: 5px;
+}
+
+.bio {
+  color: rgba(0, 0, 0, 0.824);
 }
