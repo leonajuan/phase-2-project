@@ -5,7 +5,7 @@ function NewUsersForm({ users, handleAddUser }) {
 
   const [name, setName] = useState("")
   const [age, setAge] = useState("")
-  const [image, setImage] = useState("")
+  // const [image, setImage] = useState("")
   const [food, setFood] = useState("")
   const [restaurant, setRestaurant] = useState("")
   const [bio, setBio] = useState("")
@@ -51,9 +51,9 @@ function NewUsersForm({ users, handleAddUser }) {
         <input type="number" name="age" step="1" placeholder="Age" value={age} onChange={(e) => setAge(e.target.value)} />
         <input type="file" name="image" accept="image/png, image/gif, image/jpeg" ref={imageRef} />
         <input type="text" name="favoriteFood" placeholder="Favorite Food" value={food} onChange={(e) => setFood(e.target.value)} />
-        <input type="text" name="favoriteRestaurant" placeholder="Favorite Restaurant in NYC" value={restaurant} onChange={(e) => setRestaurant(e.target.value)} />
+        <input type="text" name="favoriteRestaurant" placeholder="Favorite Restaurant" value={restaurant} onChange={(e) => setRestaurant(e.target.value)} />
         <input type="text" name="bio" placeholder="Bio" value={bio} onChange={(e) => setBio(e.target.value)} />
-        <button type="submit">Add User</button>
+        <button type="submit">Let's Eat!</button>
       </form>
     </div>
   )

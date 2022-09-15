@@ -1,3 +1,7 @@
+* {
+  font-family: 'Francois One', sans-serif;
+}
+
 .cards {
   list-style: none;
 }
@@ -67,7 +71,8 @@
 }
 
 .new-user-form input {
-  margin-right: 2rem;
+  justify-content: center;
+  padding: 3px;
 }
 
 .new-user-form button {
@@ -115,4 +120,13 @@
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 15%), 0 2px 6px 2px rgb(60 64 67 / 15%);
   padding: 1rem;
   border-radius: 10px;
+}
+
+.header, .name {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
 }
