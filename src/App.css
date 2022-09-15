@@ -60,18 +60,17 @@
 }
 
 .new-user-form {
-  padding: 2rem 1rem;
-  margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.708);
-}
-
-.new-user-form form {
-  display: flex;
+  padding: 1rem 1rem;
+  margin: 1rem 0;
   justify-content: center;
+  background-color: rgba(182, 114, 104, 0.708);
+  border: dashed 2px white;
 }
 
 .new-user-form input {
   justify-content: center;
+  margin-left: 2px;
+  margin-right: 2px;
   padding: 3px;
 }
 
@@ -100,7 +99,7 @@
 }
 
 .navbar {
-  border: solid 1px black;
+  border: dashed 4px rgba(182, 114, 104, 0.708);
   padding: 5px;
 }
 
@@ -109,6 +108,7 @@
   justify-content: center;
   padding: 5px;
   color: white;
+  margin: auto;
 }
 
 .router-components {
@@ -131,4 +131,10 @@
   text-align: center;
   font-size: 55px;
   padding: 0;
+  background-color: rgba(182, 114, 104, 0.708);
+  color: white;
+}
+
+.submit {
+  cursor: pointer;
 }

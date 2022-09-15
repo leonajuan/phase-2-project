@@ -53,7 +53,7 @@ function NewUsersForm({ users, handleAddUser }) {
         <input type="text" name="favoriteFood" placeholder="Favorite Food" value={food} onChange={(e) => setFood(e.target.value)} />
         <input type="text" name="favoriteRestaurant" placeholder="Favorite Restaurant" value={restaurant} onChange={(e) => setRestaurant(e.target.value)} />
         <input type="text" name="bio" placeholder="Bio" value={bio} onChange={(e) => setBio(e.target.value)} />
-        <button type="submit">Let's Eat!</button>
+        <button className="submit" type="submit">Let's Eat!</button>
       </form>
     </div>
   )
