@@ -52,16 +52,16 @@ export default function App() {
         <Header />
         <NavBar />
         <div>
-          <SearchBar filterUsers={filterUsers} />
-
           <Switch>
             <Route path="/food">
               <FoodsList users={users} />
             </Route>
             <Route path="/restaurants">
+
               <RestaurantsList users={users} />
             </Route>
             <Route path="/">
+              <SearchBar filterUsers={filterUsers} />
               <UsersList users={filteredUsers} />
             </Route>
           </Switch>

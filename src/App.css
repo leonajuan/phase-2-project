@@ -9,8 +9,9 @@
   padding-right: 5px;
   margin: 15px 10px 5px 10px;
   width: 70%;
-  box-shadow: 0 1px 1px 0 lightgray,
-      0 1px 1px 2px lightblue;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 15%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .card:hover {
@@ -93,6 +94,25 @@
   margin: auto;
 }
 
-ul {
+.navbar {
+  border: solid 1px black;
+  padding: 10px;
+}
+
+.nav-list-item {
+  display: inline-block;
   justify-content: center;
+  padding: 5px;
+}
+
+.router-components {
+  margin: 1rem;
+  transition: 0.3s;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 15px 10px 5px 10px;
+  width: 70%;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 15%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  padding: 1rem;
+  border-radius: 10px;
 }

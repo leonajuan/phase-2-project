@@ -39,9 +39,6 @@ function NewUsersForm({ users, handleAddUser }) {
         uploadUser(reader.result)
       }
     }
-    reader.error = (e) => {
-      alert(e);
-    }
     reader.readAsDataURL(imageRef.current.files[0])
 
   }

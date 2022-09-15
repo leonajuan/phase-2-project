@@ -4,14 +4,14 @@ function FoodsList({ users }) {
 
   const foodComponents = users.map(user => {
     return (
-      <p key={user.id}>
+      <p className="router-components" key={user.id}>
         {user.favoriteFood}
       </p>
     )
   })
 
   return (
-    <main className="router-components">
+    <main>
       {foodComponents}
     </main>
   )
